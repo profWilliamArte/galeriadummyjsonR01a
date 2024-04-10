@@ -5,6 +5,8 @@
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
         <script type="module" src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script> // agregar type="module".
     //
+
+    npm install react-bootstrap bootstrap
     instalar npm install react-bootstrap bootstrap y colocar en main.jsx al usar modales
         import "bootstrap/dist/css/bootstrap.min.css";
         import "bootstrap/dist/js/bootstrap.bundle.js";
@@ -24,7 +26,7 @@
             <Route path="/tienda" element={<Tienda/>} />
             <Route path="/laptop" element={<Laptop/>} />
             <Route path="/movil" element={<Movil/>} />
-            <Route path="/categorias" element={<Categorias/>} />
+            <Route path="/categorias/:id" element={<Categorias/>} />
             <Route path="/contactos" element={<Contactos/>} />
             <Route path="*" element={<Inicio/>} />
         </Routes>

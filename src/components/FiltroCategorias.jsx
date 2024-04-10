@@ -1,6 +1,5 @@
 
 import { useEffect, useState } from "react";
-import Card from "../components/Card";
 import { Link } from "react-router-dom";
 const API='https://dummyjson.com/products/categories';
 const ruta="/categorias/";
