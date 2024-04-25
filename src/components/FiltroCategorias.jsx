@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 const API='https://dummyjson.com/products/categories';
-const ruta="/categorias/";
+const ruta="galeriadummyjsonR01a/categorias/";
 const FiltroCategorias = () => {
     const [datos, setDatos] = useState([])
     const getDatos = async () =>{

@@ -5,7 +5,6 @@ import { Link } from "react-router-dom"
 import logo from "../assets/logo.jpg";
 
 
-
 const Header = () => {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
@@ -24,29 +23,27 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                    <Link to="/inicio" className="nav-link active" aria-current="page" href="/">Inicio</Link>
+                    <Link to="galeriadummyjsonR01a/inicio" className="nav-link active" aria-current="page" href="/">Inicio</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/tienda" className="nav-link" href="#">Tienda</Link>
+                    <Link to="galeriadummyjsonR01a/tienda" className="nav-link" href="#">Tienda</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/movil" className="nav-link" href="#">Movil</Link>
+                    <Link to="galeriadummyjsonR01a/movil" className="nav-link" href="#">Movil</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/laptop" className="nav-link" href="#">Laptop</Link>
+                    <Link to="galeriadummyjsonR01a/laptop" className="nav-link" href="#">Laptop</Link>
                 </li>
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Categorias
                     </a>
                     <ul className="dropdown-menu">
-
                         <FiltroCategorias/>
-                        
                     </ul>
                 </li>
                 <li className="nav-item">
-                    <Link to="/contactos" className="nav-link">Contactos</Link>
+                    <Link to="galeriadummyjsonR01a/contactos" className="nav-link">Contactos</Link>
                 </li>
             </ul>
             <form className="d-flex" role="search">

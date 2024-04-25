@@ -18,12 +18,12 @@ function App() {
       <BrowserRouter>
         <Header/>
           <Routes>
-            <Route path="/" element={<Inicio/>} />
-            <Route path="/tienda" element={<Tienda/>} />
-            <Route path="/laptop" element={<Laptop/>} />
-            <Route path="/movil" element={<Movil/>} />
-            <Route path="/categorias/:id" element={<Categorias/>} />
-            <Route path="/contactos" element={<Contactos/>} />
+            <Route path="galeriadummyjsonR01a/" element={<Inicio/>} />
+            <Route path="galeriadummyjsonR01a/tienda" element={<Tienda/>} />
+            <Route path="galeriadummyjsonR01a/laptop" element={<Laptop/>} />
+            <Route path="galeriadummyjsonR01a/movil" element={<Movil/>} />
+            <Route path="galeriadummyjsonR01a/categorias/:id" element={<Categorias/>} />
+            <Route path="galeriadummyjsonR01a/contactos" element={<Contactos/>} />
             <Route path="*" element={<Inicio/>} />
           </Routes>
          <Footer/>
